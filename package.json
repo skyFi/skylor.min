@@ -1,6 +1,6 @@
 {
   "name": "skylor.min-admin",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "skylor.min blog admin website. http://www.fangyongle.com",
   "main": "index.js",
   "scripts": {
