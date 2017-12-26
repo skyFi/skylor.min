@@ -1,11 +1,11 @@
 {
-  "name": "create-react-web",
-  "version": "0.3.4",
-  "description": "easy to create react web project.",
+  "name": "skylor.min-admin",
+  "version": "0.0.2",
+  "description": "skylor.min blog admin website. http://www.fangyongle.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit-release:install": "yarn add standard-version standard-changelog commitizen cz-conventional-changelog -d",
+    "commit-release:install": "yarn add standard-version standard-changelog commitizen cz-conventional-changelog --dev",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "eslint --ignore-path .gitignore --fix .",
     "precommit": "lint-staged",
@@ -25,19 +25,20 @@
   "engines": {
     "node": ">= 8.x"
   },
-  "repository": "git+https://github.com/skyFi/create-react-web.git",
+  "repository": "git+https://github.com/skyFi/skylor.min.git",
   "keywords": [
     "react",
     "web",
     "starter",
-    "project"
+    "project",
+    "http://www.fangyongle.com"
   ],
   "author": "skylor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skyFi/create-react-web/issues"
+    "url": "https://github.com/skyFi/skylor.min.git/issues"
   },
-  "homepage": "https://github.com/skyFi/create-react-web#readme",
+  "homepage": "http://www.fangyongle.com",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
